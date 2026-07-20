@@ -45,8 +45,8 @@ Cisco Certifications: CCNA
 
 - **GitHub:** https://github.com/RyanHiggins81
 - **Blog / write-ups:** 
-- **TryHackMe:** 
-- **HackTheBox:** 
+- **TryHackMe:** https://tryhackme.com/p/ryan.anthony.higgins
+- **HackTheBox:** https://profile.hackthebox.com/profile/019f7e4d-9dbe-727e-a4f4-fbb281423ce1
 
 
 ---
@@ -71,4 +71,4 @@ Cisco Certifications: CCNA
 
 ---
 
-This is a living document — updated as I learn. Built in public on purpose.
+<sub>This is a living document — updated as I learn. Built in public on purpose.</sub>

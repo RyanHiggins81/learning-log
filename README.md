@@ -61,6 +61,23 @@ Cisco Certifications: CCNA
 - **Learned:** Learnt how to create and manage public git repositories.
 - **Next:** Start Linux refresh (Linux Journey + OverTheWire Bandit) and Professor Messer Domain 1.
 
+### [2026-09-28] - Local AI Assistants
+
+A set of Python and Streamlit apps I built to keep working when I hit my Claude usage limits, and to experiment with running AI models locally.
+
+- **Fallback Assistant (Claude API):** a lightweight chat app using Claude Haiku 4.5 through the Anthropic API, with web search, for everyday tasks, research, and brainstorming.
+- **Fallback Assistant (Local):** the same app running fully offline on Ollama, GPU-accelerated on an AMD RX 6700 XT via Vulkan.
+- **Local GM:** an offline game master for playtesting tabletop RPG scenarios. It indexes rulebook PDFs for rules lookups, tracks scenario state and a rolling story summary across long sessions, and rolls real dice.
+- **Chatbot Framework:** a single app that runs any number of custom chatbots, each defined by a simple YAML persona file. Every bot can have its own personality, model, creativity level, and memory length, and can run locally on Ollama or through the Claude API. Bots can use tools for live web search, current weather, and dice rolls. Current bots include a roleplaying scene GM, a card game design partner, and an everyday assistant. Creating a new bot takes a few minutes, with no code changes.
+
+Both fallback assistants share a `/log` command that saves daily entries to a synced CSV, so Claude can pick them up once my limits reset.
+
+### Remote access
+
+Everything runs on my home PC, but I can use any of the apps from my phone anywhere through a private Tailscale network. Nothing is exposed to the public internet, and conversations carry over seamlessly between devices. A startup script launches all the apps automatically on login.
+
+Built with Python, Streamlit, Ollama, the Anthropic API, and Tailscale.
+
 ---
 
 ## 📚 Resources I'm using
